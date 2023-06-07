@@ -1,0 +1,65 @@
+{
+  "language": "français",
+  "myTaxi": "my taxi",
+  "nav": [
+    {
+      "name": "accueil",
+      "link": "#accueil"
+    },
+    {
+      "name": "caractéristiques",
+      "link": "#caractéristiques"
+    },
+    {
+      "name": "services",
+      "link": "#services"
+    },
+    {
+      "name": "nous contacter",
+      "link": "#contact"
+    }
+  ],
+  "playStore": "google play",
+  "appStore": "app store",
+  "heroTitle": "faire un tour, utilise",
+  "heroSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed dictum justo vel turpis lacinia",
+  "heroCTA": "download now!",
+  "featuresTitle": "caractéristiques",
+  "featuresBody": "Voici à quoi ça ressemble 👀",
+  "features": [
+    {
+      "title": "caractéristique 1",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Assumenda, harum."
+    },
+    {
+      "title": "caractéristique 2",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Assumenda, harum."
+    },
+    {
+      "title": "caractéristique 3",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Assumenda, harum."
+    },
+    {
+      "title": "caractéristique 4",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Assumenda, harum."
+    }
+  ],
+  "servicesTitle": "services",
+  "services": [
+    {
+      "title": "service 1",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Assumenda, harum."
+    },
+    {
+      "title": "service 2",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Assumenda, harum."
+    },
+    {
+      "title": "service 3",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Assumenda, harum."
+    }
+  ],
+  "contactHeader": "nous contacter",
+  "location": "Alger, Algérie",
+  "credentials": "tous les droits sont réservés"
+}
