@@ -19,7 +19,6 @@
 
 ![CHEESE!](https://github.com/aymenkerrouche/myTaxy_System_Web/assets/92762767/a5c7ba4e-d047-4c12-9d64-35f0478fe6fb)
 
-![CHEESE!](https://github.com/aymenkerrouche/myTaxy_System_Web/assets/92762767/a5c7ba4e-d047-4c12-9d64-35f0478fe6fb)
 
 ![CHEESE!](https://github.com/aymenkerrouche/myTaxy_System_Web/assets/92762767/1dabb48d-7aa1-4c22-8401-b4ebb00b5c05)
 
