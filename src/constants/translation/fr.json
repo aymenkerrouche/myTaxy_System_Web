@@ -1,6 +1,6 @@
 {
   "language": "français",
-  "myTaxi": "my taxi",
+  "myTaxi": "my taxieur",
   "nav": [
     {
       "name": "accueil",
@@ -20,45 +20,52 @@
     }
   ],
   "playStore": "google play",
-  "appStore": "app store",
+  "Chauffeur": "Chauffeur",
+  "appStore": "Investir",
   "heroTitle": "faire un tour, utilise",
-  "heroSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed dictum justo vel turpis lacinia",
+  "heroSubtitle": "Aller n'importe où, à n'importe quelle heure",
   "heroCTA": "download now!",
   "featuresTitle": "caractéristiques",
   "featuresBody": "Voici à quoi ça ressemble 👀",
   "features": [
     {
-      "title": "caractéristique 1",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Assumenda, harum."
+      "title": "Rapide et facile",
+      "description": "Un clic sur l'application suffit pour obtenir un chauffeur à votre emplacement."
     },
     {
-      "title": "caractéristique 2",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Assumenda, harum."
+      "title": "Sécurisé",
+      "description": "Nos chauffeurs sont vérifiés et les trajets sont géolocalisés."
     },
     {
-      "title": "caractéristique 3",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Assumenda, harum."
+      "title": "le juste Prix",
+      "description": "Tarifs adaptés au service choisi, affichés à l'avance, pas de frais cachés !"
     },
     {
-      "title": "caractéristique 4",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Assumenda, harum."
+      "title": "Position",
+      "description": "partager votre position et suivre la position de vos amis."
     }
   ],
   "servicesTitle": "services",
   "services": [
     {
-      "title": "service 1",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Assumenda, harum."
+      "title": "VTC",
+      "description": "Profitez de la meilleure expérience VTC du marché"
     },
     {
-      "title": "service 2",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Assumenda, harum."
+      "title": "Taxi compteur",
+      "description": "Le compteur de taxi calcule le prix et l'affiche en temps réel."
     },
     {
-      "title": "service 3",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Assumenda, harum."
+      "title": "Bureau local",
+      "description": "Nos conseillers sont là pour vous aider à résoudre vos problèmes"
     }
   ],
+  "counterTitle": "Nous  serons  bientot  lancés",
+  "counterDesc": "Restez branchés",
+  "Jours": "Jours",
+  "h": "h",
+  "m": "m",
+  "s": "s",
   "contactHeader": "nous contacter",
   "location": "Alger, Algérie",
   "credentials": "tous les droits sont réservés"

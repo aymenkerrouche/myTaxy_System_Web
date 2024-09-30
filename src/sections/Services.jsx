@@ -14,7 +14,7 @@ function Services() {
       <div className="absolute bottom-0 left-0 w-full h-auto -z-50 opacity-30">
         <img src={wave} />
       </div>
-      <div className="container pt-8 md:pt-16 pb-8 mb-16">
+      <div className="container pt-8 md:pt-16 pb-8 mb-16 ">
         <SectionHeader title={t("servicesTitle")} />
         <motion.div
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center"
@@ -32,14 +32,14 @@ function Services() {
           <ServicesCard
             img={service2}
             alt="service 2"
-            name={t("services")[0].title}
-            description={t("services")[0].description}
+            name={t("services")[1].title}
+            description={t("services")[1].description}
           />
           <ServicesCard
             img={service3}
             alt="service 3"
-            name={t("services")[0].title}
-            description={t("services")[0].description}
+            name={t("services")[2].title}
+            description={t("services")[2].description}
           />
         </motion.div>
       </div>

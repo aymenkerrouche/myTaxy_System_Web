@@ -5,9 +5,9 @@ import {
   FaPhone,
   FaEnvelope,
   FaMapMarkerAlt,
-  FaLinkedin,
+  FaTiktok,
   FaFacebookSquare,
-  FaInstagramSquare,
+  FaYoutube,
 } from "react-icons/fa";
 import { motion } from "framer-motion";
 function Footer() {
@@ -27,13 +27,13 @@ function Footer() {
             <Contact>
               <FaPhone className="text-lg text-yellow-800" />
               <div>
-                <p>(213) 555 55 55 55</p>
-                <p>(213) 777 77 77 77</p>
+                <p>(213) 795 88 95 75</p>
+                
               </div>
             </Contact>
             <Contact>
               <FaEnvelope className="text-lg text-yellow-800" />
-              <p>contact@mytaxi.com</p>
+              <p>contact@mytaxieur.com</p>
             </Contact>
             <Contact>
               <FaMapMarkerAlt className="text-lg text-yellow-800" />
@@ -51,27 +51,30 @@ function Footer() {
             >
               <div className="flex items-center justify-center gap-4 mb-4">
                 <Media
-                  href="linkedin.com"
-                  title="LinkedIn"
-                  icon={<FaLinkedin className="text-3xl lg:text-4xl" />}
+                  href="https://www.tiktok.com/@mytaxieur"
+                  title="Tiktok"
+                  icon={<FaTiktok className="text-3xl lg:text-4xl" />}
                 />
                 <Media
-                  href="facebook.com"
+                  href="https://www.facebook.com/mytaxieurdz/"
                   title="Facebook"
                   icon={<FaFacebookSquare className="text-3xl lg:text-4xl" />}
                 />
                 <Media
-                  href="instagram.com"
-                  title="Instagram"
-                  icon={<FaInstagramSquare className="text-3xl lg:text-4xl" />}
+                  href="https://www.youtube.com/@MYTAXIEUR"
+                  title="Youtube"
+                  icon={<FaYoutube className="text-3xl lg:text-4xl" />}
                 />
               </div>
               <p className="text-black font-light lg:text-lg ">
-                {`${t("credentials")} 2023 `}
+                {`${t("credentials")} `}
                 <span className="font-bold uppercase ">
-                  {t("myTaxi")} &copy;
+                  {t("myTaxieur")}
                 </span>
+                <br></br>2024 &copy;
               </p>
+
+              <p class="text-black font-light lg:text-lg "><a href="https://www.mobix-dz.com" target="_blank">made by <span className="font-bold uppercase ">Mobix-dz</span> </a></p>
             </motion.div>
           </div>
         </div>

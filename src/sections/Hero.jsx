@@ -1,5 +1,5 @@
 import React from "react";
-import { appstoreIcon, playstoreIcon, heroCar, halfCircle } from "../assets";
+import { appstoreIcon, playstoreIcon, heroCar, halfCircle, driver } from "../assets";
 import { Button, Wave } from "../components";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
@@ -32,10 +32,10 @@ function Hero({ language }) {
             {t("heroSubtitle")}
           </p>
           <div className="flex justify-center md:justify-start gap-4">
-            <Button href="https://www.apple.com/app-store/">
+            <Button href="https://forms.gle/DruWq8X5EqpZ2ZNx7">
               <img
                 src={appstoreIcon}
-                alt="App Store"
+                alt="Investir"
                 width="40"
                 height="40"
                 loading="lazy"
@@ -53,6 +53,21 @@ function Hero({ language }) {
               {t("playStore")}
             </Button>
           </div>
+          <br></br>
+          <div className="flex justify-center md:justify-start gap-4">
+          <Button href="https://forms.gle/yVuR3kz42fsXrRzr7">
+              <img
+                src={driver}
+                alt="Driver"
+                width="36"
+                height="36"
+                loading="lazy"
+              />
+              {t("Chauffeur")}
+            </Button>
+          </div>
+
+          
         </motion.div>
         <div className="flex-1 flex flex-col mt-8 md:mt-0">
           <motion.div
@@ -65,7 +80,7 @@ function Hero({ language }) {
           >
             <img
               src={heroCar}
-              alt="my taxi"
+              alt="my taxieur"
               className="w-full h-full object-contain object-center rtl:-scale-x-100 ltr:scale-x-100"
               loading="lazy"
             />

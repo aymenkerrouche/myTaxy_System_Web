@@ -12,3 +12,36 @@ html {
 select {
   @apply border-0 outline-none
 }
+
+
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+  height: 80vh; /* Full viewport height */
+}
+
+.title {
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  color: #b5b5b5;
+  margin-bottom: 20px;
+}
+
+.countdown {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.countdown span {
+  margin: 0 10px;
+}

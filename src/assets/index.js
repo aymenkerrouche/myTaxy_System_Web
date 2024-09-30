@@ -3,7 +3,8 @@ import openMenu from "./open-menu.png";
 import closeMenu from "./close-menu.png";
 import appstoreIcon from "./appstore_icon.svg";
 import playstoreIcon from "./playstore_icon.svg";
-import heroCar from "./hero_car.png";
+import driver from "./driver.svg";
+import heroCar from "./hero_car2.png";
 import features from "./features.jpg";
 import service1  from "./service-1.jpg";
 import service2  from "./service-2.jpg";
@@ -27,5 +28,5 @@ export {
   service3,
   fr,
   ar,
-  circle, halfCircle, wave
+  circle, halfCircle, wave, driver
 };

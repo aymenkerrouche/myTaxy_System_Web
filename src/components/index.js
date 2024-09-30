@@ -5,4 +5,5 @@ export { default as SectionHeader } from "./SectionHeader";
 export { default as Contact } from "./Contact";
 export { default as Media } from "./Media";
 export { default as Wave } from "./Wave";
+export { default as Countdown } from "./Countdown";
 
