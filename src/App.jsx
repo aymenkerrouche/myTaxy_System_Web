@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Navbar, Hero, Features, Services, Footer, Counter } from "./sections";
+import { Navbar, Hero, Features, Services, Footer, Counter, DriverForm } from "./sections";
 import { Helmet } from "react-helmet";
 function App() {
   const [language, setLanguage] = useState(
@@ -29,6 +29,7 @@ function App() {
       />
       <Navbar language={language} changeLanguage={changeLanguage} />
       <Hero language={language}/>
+      <DriverForm/>
       <Features />
       <Counter />
       <Services />
