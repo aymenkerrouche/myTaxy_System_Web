@@ -27,7 +27,7 @@ function Footer() {
             <Contact>
               <FaPhone className="text-lg text-yellow-800" />
               <div>
-                <p>(213) 795 88 95 75</p>
+                <p>0795889575</p>
                 
               </div>
             </Contact>

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Navbar, Hero, Features, Services, Footer, Counter, DriverForm } from "./sections";
+import { Navbar, Hero, Features, Services, Footer, Counter} from "./sections";
 import { Helmet } from "react-helmet";
+
+
 function App() {
   const [language, setLanguage] = useState(
     localStorage.getItem("language") || "fr"
@@ -20,21 +22,22 @@ function App() {
   }, []);
 
   return (
+
     <>
-      <Helmet
-        htmlAttributes={{
-          lang: language,
-          dir: language === "fr" ? "ltr" : "rtl",
-        }}
-      />
-      <Navbar language={language} changeLanguage={changeLanguage} />
-      <Hero language={language}/>
-      <DriverForm/>
-      <Features />
-      <Counter />
-      <Services />
-      <Footer />
-    </>
+          <Helmet
+            htmlAttributes={{
+              lang: language,
+              dir: language === "fr" ? "ltr" : "rtl",
+            }}
+          />
+          <Navbar language={language} changeLanguage={changeLanguage} />
+          <Hero language={language}/>
+          <Features />
+          <Counter />
+          <Services />
+          <Footer />
+        </>
+    
   );
 }
 

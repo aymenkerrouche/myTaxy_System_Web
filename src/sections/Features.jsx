@@ -3,6 +3,7 @@ import { features, wave } from "../assets";
 import { SectionHeader, FeaturesCard } from "../components";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+
 function Features() {
   const { t } = useTranslation();
   return (

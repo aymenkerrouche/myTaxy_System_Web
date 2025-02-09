@@ -64,7 +64,7 @@ function Navbar({ language, changeLanguage }) {
   return (
     <header className="sticky top-0 z-40 py-2 bg-white backdrop-blur-sm shadow-sm">
       <div className="container flex items-center justify-between">
-        <a href="#accueil">
+        <a href="/">
           <div className="flex items-center justify-center gap-4 min-w-max">
             <div className="bg-white p-2 rounded-full border">
               <img
@@ -157,9 +157,7 @@ function Navbar({ language, changeLanguage }) {
               ></div>
               <motion.nav
                 className="absolute top-24 left-4 right-4 z-50 bg-white shadow-sm border rounded-md py-8 px-4"
-                initial={{ opacity: 0, y: -500 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -500 }}
                 transition={{ duration: 0.5 }}
               >
                 <ul className="flex flex-col items-center gap-4 ">

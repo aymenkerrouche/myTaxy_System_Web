@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import {Countdown} from "../components";
 import {wave } from "../assets";
-import { useTranslation } from "react-i18next";
+
 function Counter() {
-  const { t } = useTranslation();
+
   const openingDate = "2024-11-01T00:00:00";
   return (
     <div id="Counter" className="relative w-full h-full">

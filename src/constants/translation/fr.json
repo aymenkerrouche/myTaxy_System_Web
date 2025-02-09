@@ -4,7 +4,7 @@
   "nav": [
     {
       "name": "accueil",
-      "link": "#accueil"
+      "link": "/"
     },
     {
       "name": "caractéristiques",
@@ -68,5 +68,12 @@
   "s": "s",
   "contactHeader": "nous contacter",
   "location": "Alger, Algérie",
-  "credentials": "tous les droits sont réservés"
+  "credentials": "tous les droits sont réservés",
+  "RejoignezNous": "Devenez chauffeur chez",
+  "inscrire": "S'inscrire",
+  "Wilaya": "Wilaya",
+  "Email": "Email",
+  "Numéro": "Numéro",
+  "Prénom": "Prénom",
+  "Nom": "Nom"
 }

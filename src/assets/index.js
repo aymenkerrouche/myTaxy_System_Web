@@ -6,6 +6,7 @@ import playstoreIcon from "./playstore_icon.svg";
 import driver from "./driver.svg";
 import heroCar from "./hero_car2.png";
 import features from "./features.jpg";
+
 import service1  from "./service-1.jpg";
 import service2  from "./service-2.jpg";
 import service3 from "./service-3.jpg";
@@ -28,5 +29,6 @@ export {
   service3,
   fr,
   ar,
-  circle, halfCircle, wave, driver
+  circle, halfCircle, wave, driver,
+  
 };
